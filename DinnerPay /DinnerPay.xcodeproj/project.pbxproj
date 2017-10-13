@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AE1F2932AA4C60C0D7AF1B8 /* libPods-DinnerPay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D2D7A659FC2F2111F482CA8 /* libPods-DinnerPay.a */; };
+		A98E35161F20A023006C182B /* UIImage+Bitmap.m in Sources */ = {isa = PBXBuildFile; fileRef = A98E35131F20A023006C182B /* UIImage+Bitmap.m */; };
+		A98E35171F20A023006C182B /* UIWebView+UIImage.m in Sources */ = {isa = PBXBuildFile; fileRef = A98E35151F20A023006C182B /* UIWebView+UIImage.m */; };
+		A98E351B1F20A782006C182B /* OrderTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A98E351A1F20A782006C182B /* OrderTabVC.m */; };
+		A98E351E1F20A7B9006C182B /* OrderPageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A98E351D1F20A7B9006C182B /* OrderPageModel.m */; };
+		A98E35211F20A901006C182B /* OrderPrintManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A98E35201F20A901006C182B /* OrderPrintManager.m */; };
+		A98E35251F20A95E006C182B /* JBPrinter.m in Sources */ = {isa = PBXBuildFile; fileRef = A98E35241F20A95E006C182B /* JBPrinter.m */; };
+		A98E352B1F20D4EC006C182B /* BlueToothStateView.m in Sources */ = {isa = PBXBuildFile; fileRef = A98E35281F20D4EC006C182B /* BlueToothStateView.m */; };
+		A98E352C1F20D4EC006C182B /* SettingTabVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A98E352A1F20D4EC006C182B /* SettingTabVC.m */; };
+		A9CBC07C1F1F00D000E96B26 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CBC07B1F1F00D000E96B26 /* main.m */; };
+		A9CBC07F1F1F00D000E96B26 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CBC07E1F1F00D000E96B26 /* AppDelegate.m */; };
+		A9CBC0851F1F00D000E96B26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9CBC0831F1F00D000E96B26 /* Main.storyboard */; };
+		A9CBC0871F1F00D000E96B26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9CBC0861F1F00D000E96B26 /* Assets.xcassets */; };
+		A9CBC08A1F1F00D000E96B26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9CBC0881F1F00D000E96B26 /* LaunchScreen.storyboard */; };
+		A9CBC0941F1F011900E96B26 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9CBC0931F1F011900E96B26 /* CoreBluetooth.framework */; };
+		A9CBC0971F1F041D00E96B26 /* HomeTabBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CBC0961F1F041D00E96B26 /* HomeTabBarVC.m */; };
+		A9CBC0A61F1F0F0B00E96B26 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CBC0A51F1F0F0B00E96B26 /* UIView+Frame.m */; };
+		A9CBC0A91F1F2FB700E96B26 /* BlueToothManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CBC0A81F1F2FB700E96B26 /* BlueToothManager.m */; };
+		A9CBC0AC1F1F439200E96B26 /* BTPeripheralModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A9CBC0AB1F1F439200E96B26 /* BTPeripheralModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D2D7A659FC2F2111F482CA8 /* libPods-DinnerPay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DinnerPay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CD8013D23089101C874876A /* Pods-DinnerPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DinnerPay.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DinnerPay/Pods-DinnerPay.debug.xcconfig"; sourceTree = "<group>"; };
+		A98E35121F20A023006C182B /* UIImage+Bitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Bitmap.h"; sourceTree = "<group>"; };
+		A98E35131F20A023006C182B /* UIImage+Bitmap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Bitmap.m"; sourceTree = "<group>"; };
+		A98E35141F20A023006C182B /* UIWebView+UIImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+UIImage.h"; sourceTree = "<group>"; };
+		A98E35151F20A023006C182B /* UIWebView+UIImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+UIImage.m"; sourceTree = "<group>"; };
+		A98E35191F20A782006C182B /* OrderTabVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderTabVC.h; sourceTree = "<group>"; };
+		A98E351A1F20A782006C182B /* OrderTabVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderTabVC.m; sourceTree = "<group>"; };
+		A98E351C1F20A7B9006C182B /* OrderPageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderPageModel.h; sourceTree = "<group>"; };
+		A98E351D1F20A7B9006C182B /* OrderPageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderPageModel.m; sourceTree = "<group>"; };
+		A98E351F1F20A901006C182B /* OrderPrintManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderPrintManager.h; sourceTree = "<group>"; };
+		A98E35201F20A901006C182B /* OrderPrintManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderPrintManager.m; sourceTree = "<group>"; };
+		A98E35231F20A95E006C182B /* JBPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBPrinter.h; sourceTree = "<group>"; };
+		A98E35241F20A95E006C182B /* JBPrinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBPrinter.m; sourceTree = "<group>"; };
+		A98E35271F20D4EC006C182B /* BlueToothStateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueToothStateView.h; sourceTree = "<group>"; };
+		A98E35281F20D4EC006C182B /* BlueToothStateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueToothStateView.m; sourceTree = "<group>"; };
+		A98E35291F20D4EC006C182B /* SettingTabVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingTabVC.h; sourceTree = "<group>"; };
+		A98E352A1F20D4EC006C182B /* SettingTabVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingTabVC.m; sourceTree = "<group>"; };
+		A9CBC0771F1F00D000E96B26 /* DinnerPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DinnerPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9CBC07B1F1F00D000E96B26 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9CBC07D1F1F00D000E96B26 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9CBC07E1F1F00D000E96B26 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9CBC0841F1F00D000E96B26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9CBC0861F1F00D000E96B26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9CBC0891F1F00D000E96B26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A9CBC08B1F1F00D000E96B26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9CBC0931F1F011900E96B26 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		A9CBC0951F1F041D00E96B26 /* HomeTabBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTabBarVC.h; sourceTree = "<group>"; };
+		A9CBC0961F1F041D00E96B26 /* HomeTabBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTabBarVC.m; sourceTree = "<group>"; };
+		A9CBC0A21F1F0ABE00E96B26 /* BlueToothConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueToothConst.h; sourceTree = "<group>"; };
+		A9CBC0A41F1F0F0B00E96B26 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		A9CBC0A51F1F0F0B00E96B26 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		A9CBC0A71F1F2FB700E96B26 /* BlueToothManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueToothManager.h; sourceTree = "<group>"; };
+		A9CBC0A81F1F2FB700E96B26 /* BlueToothManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueToothManager.m; sourceTree = "<group>"; };
+		A9CBC0AA1F1F439200E96B26 /* BTPeripheralModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTPeripheralModel.h; sourceTree = "<group>"; };
+		A9CBC0AB1F1F439200E96B26 /* BTPeripheralModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTPeripheralModel.m; sourceTree = "<group>"; };
+		E924D3E412040C8781EE10E7 /* Pods-DinnerPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DinnerPay.release.xcconfig"; path = "Pods/Target Support Files/Pods-DinnerPay/Pods-DinnerPay.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9CBC0741F1F00D000E96B26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CBC0941F1F011900E96B26 /* CoreBluetooth.framework in Frameworks */,
+				5AE1F2932AA4C60C0D7AF1B8 /* libPods-DinnerPay.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A98E35181F20A782006C182B /* DinnerOrder */ = {
+			isa = PBXGroup;
+			children = (
+				A98E35191F20A782006C182B /* OrderTabVC.h */,
+				A98E351A1F20A782006C182B /* OrderTabVC.m */,
+				A98E351C1F20A7B9006C182B /* OrderPageModel.h */,
+				A98E351D1F20A7B9006C182B /* OrderPageModel.m */,
+				A98E351F1F20A901006C182B /* OrderPrintManager.h */,
+				A98E35201F20A901006C182B /* OrderPrintManager.m */,
+			);
+			path = DinnerOrder;
+			sourceTree = "<group>";
+		};
+		A98E35221F20A95E006C182B /* JBPrinter */ = {
+			isa = PBXGroup;
+			children = (
+				A98E35231F20A95E006C182B /* JBPrinter.h */,
+				A98E35241F20A95E006C182B /* JBPrinter.m */,
+			);
+			path = JBPrinter;
+			sourceTree = "<group>";
+		};
+		A98E35261F20D4EC006C182B /* BlueToothSetting */ = {
+			isa = PBXGroup;
+			children = (
+				A98E35271F20D4EC006C182B /* BlueToothStateView.h */,
+				A98E35281F20D4EC006C182B /* BlueToothStateView.m */,
+				A98E35291F20D4EC006C182B /* SettingTabVC.h */,
+				A98E352A1F20D4EC006C182B /* SettingTabVC.m */,
+			);
+			path = BlueToothSetting;
+			sourceTree = "<group>";
+		};
+		A9CBC06E1F1F00D000E96B26 = {
+			isa = PBXGroup;
+			children = (
+				A9CBC0791F1F00D000E96B26 /* DinnerPay */,
+				A9CBC0781F1F00D000E96B26 /* Products */,
+				A9CBC0921F1F011900E96B26 /* Frameworks */,
+				B49ECC104059E8A6A5189E57 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A9CBC0781F1F00D000E96B26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9CBC0771F1F00D000E96B26 /* DinnerPay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9CBC0791F1F00D000E96B26 /* DinnerPay */ = {
+			isa = PBXGroup;
+			children = (
+				A98E35261F20D4EC006C182B /* BlueToothSetting */,
+				A98E35221F20A95E006C182B /* JBPrinter */,
+				A98E35181F20A782006C182B /* DinnerOrder */,
+				A9CBC0A31F1F0F0B00E96B26 /* Category */,
+				A9CBC0A11F1F0ABE00E96B26 /* BlueToother */,
+				A9CBC07D1F1F00D000E96B26 /* AppDelegate.h */,
+				A9CBC07E1F1F00D000E96B26 /* AppDelegate.m */,
+				A9CBC0951F1F041D00E96B26 /* HomeTabBarVC.h */,
+				A9CBC0961F1F041D00E96B26 /* HomeTabBarVC.m */,
+				A9CBC0831F1F00D000E96B26 /* Main.storyboard */,
+				A9CBC0861F1F00D000E96B26 /* Assets.xcassets */,
+				A9CBC0881F1F00D000E96B26 /* LaunchScreen.storyboard */,
+				A9CBC08B1F1F00D000E96B26 /* Info.plist */,
+				A9CBC07A1F1F00D000E96B26 /* Supporting Files */,
+			);
+			path = DinnerPay;
+			sourceTree = "<group>";
+		};
+		A9CBC07A1F1F00D000E96B26 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9CBC07B1F1F00D000E96B26 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9CBC0921F1F011900E96B26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9CBC0931F1F011900E96B26 /* CoreBluetooth.framework */,
+				3D2D7A659FC2F2111F482CA8 /* libPods-DinnerPay.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9CBC0A11F1F0ABE00E96B26 /* BlueToother */ = {
+			isa = PBXGroup;
+			children = (
+				A9CBC0A21F1F0ABE00E96B26 /* BlueToothConst.h */,
+				A9CBC0A71F1F2FB700E96B26 /* BlueToothManager.h */,
+				A9CBC0A81F1F2FB700E96B26 /* BlueToothManager.m */,
+				A9CBC0AA1F1F439200E96B26 /* BTPeripheralModel.h */,
+				A9CBC0AB1F1F439200E96B26 /* BTPeripheralModel.m */,
+			);
+			path = BlueToother;
+			sourceTree = "<group>";
+		};
+		A9CBC0A31F1F0F0B00E96B26 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A98E35121F20A023006C182B /* UIImage+Bitmap.h */,
+				A98E35131F20A023006C182B /* UIImage+Bitmap.m */,
+				A98E35141F20A023006C182B /* UIWebView+UIImage.h */,
+				A98E35151F20A023006C182B /* UIWebView+UIImage.m */,
+				A9CBC0A41F1F0F0B00E96B26 /* UIView+Frame.h */,
+				A9CBC0A51F1F0F0B00E96B26 /* UIView+Frame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		B49ECC104059E8A6A5189E57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CD8013D23089101C874876A /* Pods-DinnerPay.debug.xcconfig */,
+				E924D3E412040C8781EE10E7 /* Pods-DinnerPay.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9CBC0761F1F00D000E96B26 /* DinnerPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9CBC08E1F1F00D000E96B26 /* Build configuration list for PBXNativeTarget "DinnerPay" */;
+			buildPhases = (
+				0F9C0D750D96DCEFF9AEA067 /* [CP] Check Pods Manifest.lock */,
+				A9CBC0731F1F00D000E96B26 /* Sources */,
+				A9CBC0741F1F00D000E96B26 /* Frameworks */,
+				A9CBC0751F1F00D000E96B26 /* Resources */,
+				DD630099203B4FBA53481A5F /* [CP] Embed Pods Frameworks */,
+				3E2CFBE5A73A6538F82DB0EC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DinnerPay;
+			productName = DinnerPay;
+			productReference = A9CBC0771F1F00D000E96B26 /* DinnerPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9CBC06F1F1F00D000E96B26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = FairyTail;
+				TargetAttributes = {
+					A9CBC0761F1F00D000E96B26 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 78754KDNPH;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A9CBC0721F1F00D000E96B26 /* Build configuration list for PBXProject "DinnerPay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9CBC06E1F1F00D000E96B26;
+			productRefGroup = A9CBC0781F1F00D000E96B26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9CBC0761F1F00D000E96B26 /* DinnerPay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9CBC0751F1F00D000E96B26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9CBC08A1F1F00D000E96B26 /* LaunchScreen.storyboard in Resources */,
+				A9CBC0871F1F00D000E96B26 /* Assets.xcassets in Resources */,
+				A9CBC0851F1F00D000E96B26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F9C0D750D96DCEFF9AEA067 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3E2CFBE5A73A6538F82DB0EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DinnerPay/Pods-DinnerPay-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD630099203B4FBA53481A5F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DinnerPay/Pods-DinnerPay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9CBC0731F1F00D000E96B26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A98E35171F20A023006C182B /* UIWebView+UIImage.m in Sources */,
+				A98E351E1F20A7B9006C182B /* OrderPageModel.m in Sources */,
+				A98E35211F20A901006C182B /* OrderPrintManager.m in Sources */,
+				A9CBC07F1F1F00D000E96B26 /* AppDelegate.m in Sources */,
+				A98E35251F20A95E006C182B /* JBPrinter.m in Sources */,
+				A98E352C1F20D4EC006C182B /* SettingTabVC.m in Sources */,
+				A98E35161F20A023006C182B /* UIImage+Bitmap.m in Sources */,
+				A98E351B1F20A782006C182B /* OrderTabVC.m in Sources */,
+				A9CBC07C1F1F00D000E96B26 /* main.m in Sources */,
+				A98E352B1F20D4EC006C182B /* BlueToothStateView.m in Sources */,
+				A9CBC0971F1F041D00E96B26 /* HomeTabBarVC.m in Sources */,
+				A9CBC0A61F1F0F0B00E96B26 /* UIView+Frame.m in Sources */,
+				A9CBC0AC1F1F439200E96B26 /* BTPeripheralModel.m in Sources */,
+				A9CBC0A91F1F2FB700E96B26 /* BlueToothManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A9CBC0831F1F00D000E96B26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9CBC0841F1F00D000E96B26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9CBC0881F1F00D000E96B26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9CBC0891F1F00D000E96B26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9CBC08C1F1F00D000E96B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9CBC08D1F1F00D000E96B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9CBC08F1F1F00D000E96B26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CD8013D23089101C874876A /* Pods-DinnerPay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 78754KDNPH;
+				INFOPLIST_FILE = DinnerPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuzichao.BluetoothPrint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A9CBC0901F1F00D000E96B26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E924D3E412040C8781EE10E7 /* Pods-DinnerPay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 78754KDNPH;
+				INFOPLIST_FILE = DinnerPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xuzichao.BluetoothPrint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9CBC0721F1F00D000E96B26 /* Build configuration list for PBXProject "DinnerPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9CBC08C1F1F00D000E96B26 /* Debug */,
+				A9CBC08D1F1F00D000E96B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9CBC08E1F1F00D000E96B26 /* Build configuration list for PBXNativeTarget "DinnerPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9CBC08F1F1F00D000E96B26 /* Debug */,
+				A9CBC0901F1F00D000E96B26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9CBC06F1F1F00D000E96B26 /* Project object */;
+}

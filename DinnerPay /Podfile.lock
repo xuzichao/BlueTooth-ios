@@ -1,0 +1,15 @@
+PODS:
+  - JSONModel (1.0.2)
+  - KVOController (1.2.0)
+
+DEPENDENCIES:
+  - JSONModel (= 1.0.2)
+  - KVOController
+
+SPEC CHECKSUMS:
+  JSONModel: 6ffcb4ffa3659c9e9a2e5d45d6c7705bab187c03
+  KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+
+PODFILE CHECKSUM: 1dec3da6b57f81912274e80887f6148fe889dada
+
+COCOAPODS: 1.0.1

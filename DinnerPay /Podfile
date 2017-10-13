@@ -1,0 +1,14 @@
+#--------------------------pod私有源--------------------------------------
+#-- source 'git@code.byted.org:TTIOS/tt_pods_specs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+inhibit_all_warnings!
+
+def appPods
+    pod 'JSONModel', '1.0.2'
+    pod 'KVOController'
+end
+
+target 'DinnerPay' do
+    appPods
+end

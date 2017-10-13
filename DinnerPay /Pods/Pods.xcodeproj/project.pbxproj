@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08CD7C0F3287AE71FCC88C262E5B5BA5 /* JSONModelLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 192DFADD5BE6AA2EC8695E0A97878F7E /* JSONModelLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1736502EE59EF61EEF41E54870FA7D97 /* JSONKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = F438BE3CB9ED509C77C86BFE0EA04F3A /* JSONKeyMapper.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1AAA70E698A9A1104C1A9F8727B82DDA /* JSONModel+networking.h in Headers */ = {isa = PBXBuildFile; fileRef = 33DA068598D7C046D9A51D08EC55A5E3 /* JSONModel+networking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EB671ACACCEAC99FA5C4096DA116FE9 /* JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F0AD94E6E2DE782B24741D7A7D860810 /* JSONModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		36AF5FD414EE93F0C9250394B9B920BC /* JSONValueTransformer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E75E1D8238539AC598553EF2C3855E6 /* JSONValueTransformer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		387C47199D0E566DCD7DA228B20297C5 /* JSONModelClassProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 80191235EBD9325DB8F06666F9331A2F /* JSONModelClassProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		411AFC327DF36F151B03A9850B2D1883 /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3836482BA807410A4070ABB3016BE3C /* FBKVOController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		43AB032EFC6FE67994EDFFBD9365EB24 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		477C6F5170C5055549D3E7EE1381CC55 /* Pods-DinnerPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 35D701141B439AE90A21A3736BB6B869 /* Pods-DinnerPay-dummy.m */; };
+		47B724C28AFED42E3E94204D02DA2733 /* JSONAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9777B4F91ED55DEDFF8A73D9705CD1B0 /* JSONAPI.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		53707C8E9063630510F1E6A36275BC33 /* JSONAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 43862CBBECB64BDDD415247EF6C36257 /* JSONAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		541A1FF2BE6FDED04FC8174BDA96F005 /* NSObject+FBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DCDA910FADAB095C70B6C079D41EC7E /* NSObject+FBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5F3E45D44392E55DC395DEE05B7B7570 /* JSONModel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 959727FA4F9A3166194A5D2B597430A4 /* JSONModel-dummy.m */; };
+		72C6E7510CE85772FDE774E854F2165F /* JSONModelArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E0B228EA9DC850DC441EBA5BE84B5E1 /* JSONModelArray.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		826771FBBD10E29C6AE46BC4F47A6E4C /* JSONModel+networking.m in Sources */ = {isa = PBXBuildFile; fileRef = 818EEA7B9E0B18D7F9951C1447A65326 /* JSONModel+networking.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8A2C5CF2D28776EBB3B9EFF562CCCFC2 /* KVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EA8BFDD656162294F35E4320264B649 /* KVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		904EE99702A011FFD4BB1B5F8B579EDC /* NSArray+JSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 09587ABE74EFB18C575ED1A0DDCA57F7 /* NSArray+JSONModel.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		97B3AFE1C36E97573ECF2C00C2B98010 /* JSONHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4229AEBB41174B5CC025407D0F837072 /* JSONHTTPClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		988C84FC5CDFF45926D238C0ADF0E470 /* JSONModelArray.h in Headers */ = {isa = PBXBuildFile; fileRef = A2B0B5A60F2C9A3E349AE7DE7AD4FA54 /* JSONModelArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4DD2AA624AB5D39B89C1621ECCE52F5 /* JSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA17ED354787AD4450DB10D2F1701BD /* JSONModelError.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A887BB49378F069A04577F433309C515 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A95BDE2319138A42CF4BCDEB2A9C5213 /* JSONModelClassProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = A49078FEE61642F2E43F26C360D54303 /* JSONModelClassProperty.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AC1EBB97EFD5398194CA26C31926E0BC /* NSObject+FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F2E75B5903626EECD3108006D41EF9 /* NSObject+FBKVOController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B96F28F4542BEA6BECFC603581AE0903 /* KVOController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FDA1BA51E1F7A11C9D6367DB3813EB4A /* KVOController-dummy.m */; };
+		BCF6F1CD270BA9BC5BDC63815D818097 /* NSArray+JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = ED845D8C068BBA0A5399BA3C32CABAD7 /* NSArray+JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD6989C6888F0C3A26540B2A59ABDBF9 /* JSONValueTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = FFB60E2A2C4DAC100BA3F9E47970B1EC /* JSONValueTransformer.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C1652FEE07EE48DC7277B180CACFABC8 /* JSONKeyMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 19D8DD78BF36C2FBEEA26615B2D257A1 /* JSONKeyMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5B804D74B774F7313ACDDAD3471D546 /* JSONHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = FF3D6548988B7F18934AD7D3FFEBC756 /* JSONHTTPClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C988F6B2CA8D85617BB2C79CDA9B7280 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		EAC8D21ABBCC7BEDBE2DEE1B4BDF19BE /* JSONModelError.h in Headers */ = {isa = PBXBuildFile; fileRef = E788D7FD43FF85269B9D4A72D6D83728 /* JSONModelError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBD8BD6A4FFC9E7A30E85603FF0118D6 /* FBKVOController.h in Headers */ = {isa = PBXBuildFile; fileRef = E8E27652C53B142D99EC4888B04BF0F5 /* FBKVOController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F471FDA23F7A8F3E0DF4B681CA898FA5 /* JSONModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 943C1E96FB0F7698201D2DA20435F8A0 /* JSONModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9F54F3A8FA7B818810E713CA8F06A46F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 53E7E9D15B3EFBCB998E237DE5EA8695;
+			remoteInfo = JSONModel;
+		};
+		A99FD4AC0FE86DD19A232C8AE700F54E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C2D3327264C1DB785EADD89D3242323;
+			remoteInfo = KVOController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09587ABE74EFB18C575ED1A0DDCA57F7 /* NSArray+JSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+JSONModel.m"; path = "JSONModel/JSONModelCategories/NSArray+JSONModel.m"; sourceTree = "<group>"; };
+		0DCDA910FADAB095C70B6C079D41EC7E /* NSObject+FBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+FBKVOController.h"; path = "FBKVOController/NSObject+FBKVOController.h"; sourceTree = "<group>"; };
+		0E75E1D8238539AC598553EF2C3855E6 /* JSONValueTransformer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONValueTransformer.h; path = JSONModel/JSONModelTransformations/JSONValueTransformer.h; sourceTree = "<group>"; };
+		149635A37A206F8D6F37C8BAEDB3C0BB /* libKVOController.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libKVOController.a; path = libKVOController.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		192DFADD5BE6AA2EC8695E0A97878F7E /* JSONModelLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelLib.h; path = JSONModel/JSONModelLib.h; sourceTree = "<group>"; };
+		19D8DD78BF36C2FBEEA26615B2D257A1 /* JSONKeyMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONKeyMapper.h; path = JSONModel/JSONModelTransformations/JSONKeyMapper.h; sourceTree = "<group>"; };
+		19EA430D757C90A3DBDD3D30AC39C1EB /* libPods-DinnerPay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DinnerPay.a"; path = "libPods-DinnerPay.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33DA068598D7C046D9A51D08EC55A5E3 /* JSONModel+networking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "JSONModel+networking.h"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.h"; sourceTree = "<group>"; };
+		35D701141B439AE90A21A3736BB6B869 /* Pods-DinnerPay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DinnerPay-dummy.m"; sourceTree = "<group>"; };
+		39087CA82F0BDF53B09D0AEDC5687D37 /* Pods-DinnerPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DinnerPay.debug.xcconfig"; sourceTree = "<group>"; };
+		4229AEBB41174B5CC025407D0F837072 /* JSONHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONHTTPClient.m; path = JSONModel/JSONModelNetworking/JSONHTTPClient.m; sourceTree = "<group>"; };
+		43862CBBECB64BDDD415247EF6C36257 /* JSONAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONAPI.h; path = JSONModel/JSONModelNetworking/JSONAPI.h; sourceTree = "<group>"; };
+		43B54156DB9BA6D63A268651BEF3D2DB /* Pods-DinnerPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DinnerPay.release.xcconfig"; sourceTree = "<group>"; };
+		44C122F66DEBDC19A00F467C1B95BB8A /* Pods-DinnerPay-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DinnerPay-acknowledgements.markdown"; sourceTree = "<group>"; };
+		571204C239803F7CF736323299421233 /* Pods-DinnerPay-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DinnerPay-acknowledgements.plist"; sourceTree = "<group>"; };
+		5F49B3E6B694CC47A47D37FDB540AB49 /* KVOController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVOController.xcconfig; sourceTree = "<group>"; };
+		6E0B228EA9DC850DC441EBA5BE84B5E1 /* JSONModelArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelArray.m; path = JSONModel/JSONModel/JSONModelArray.m; sourceTree = "<group>"; };
+		6EA8BFDD656162294F35E4320264B649 /* KVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KVOController.h; path = FBKVOController/KVOController.h; sourceTree = "<group>"; };
+		6FA17ED354787AD4450DB10D2F1701BD /* JSONModelError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelError.m; path = JSONModel/JSONModel/JSONModelError.m; sourceTree = "<group>"; };
+		74F2E75B5903626EECD3108006D41EF9 /* NSObject+FBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+FBKVOController.m"; path = "FBKVOController/NSObject+FBKVOController.m"; sourceTree = "<group>"; };
+		771BA0A5D856AB2DF2BB90AFB6B614EC /* JSONModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JSONModel-prefix.pch"; sourceTree = "<group>"; };
+		80191235EBD9325DB8F06666F9331A2F /* JSONModelClassProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelClassProperty.h; path = JSONModel/JSONModel/JSONModelClassProperty.h; sourceTree = "<group>"; };
+		818EEA7B9E0B18D7F9951C1447A65326 /* JSONModel+networking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "JSONModel+networking.m"; path = "JSONModel/JSONModelNetworking/JSONModel+networking.m"; sourceTree = "<group>"; };
+		82D8D090500CCFBDAC4D8795DD0F0B77 /* Pods-DinnerPay-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DinnerPay-resources.sh"; sourceTree = "<group>"; };
+		85992005557F7AE383F8DB6D5456C308 /* libJSONModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libJSONModel.a; path = libJSONModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		943C1E96FB0F7698201D2DA20435F8A0 /* JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModel.h; path = JSONModel/JSONModel/JSONModel.h; sourceTree = "<group>"; };
+		959727FA4F9A3166194A5D2B597430A4 /* JSONModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JSONModel-dummy.m"; sourceTree = "<group>"; };
+		9777B4F91ED55DEDFF8A73D9705CD1B0 /* JSONAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONAPI.m; path = JSONModel/JSONModelNetworking/JSONAPI.m; sourceTree = "<group>"; };
+		A2B0B5A60F2C9A3E349AE7DE7AD4FA54 /* JSONModelArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelArray.h; path = JSONModel/JSONModel/JSONModelArray.h; sourceTree = "<group>"; };
+		A49078FEE61642F2E43F26C360D54303 /* JSONModelClassProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModelClassProperty.m; path = JSONModel/JSONModel/JSONModelClassProperty.m; sourceTree = "<group>"; };
+		B9C1367F4AB78A4490BCC4FDF7CB2805 /* JSONModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JSONModel.xcconfig; sourceTree = "<group>"; };
+		C3F48E9D5020F2A4CD6614597E232EC3 /* Pods-DinnerPay-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DinnerPay-frameworks.sh"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E3836482BA807410A4070ABB3016BE3C /* FBKVOController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBKVOController.m; path = FBKVOController/FBKVOController.m; sourceTree = "<group>"; };
+		E788D7FD43FF85269B9D4A72D6D83728 /* JSONModelError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONModelError.h; path = JSONModel/JSONModel/JSONModelError.h; sourceTree = "<group>"; };
+		E8E27652C53B142D99EC4888B04BF0F5 /* FBKVOController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBKVOController.h; path = FBKVOController/FBKVOController.h; sourceTree = "<group>"; };
+		ED845D8C068BBA0A5399BA3C32CABAD7 /* NSArray+JSONModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+JSONModel.h"; path = "JSONModel/JSONModelCategories/NSArray+JSONModel.h"; sourceTree = "<group>"; };
+		F0AD94E6E2DE782B24741D7A7D860810 /* JSONModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONModel.m; path = JSONModel/JSONModel/JSONModel.m; sourceTree = "<group>"; };
+		F438BE3CB9ED509C77C86BFE0EA04F3A /* JSONKeyMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONKeyMapper.m; path = JSONModel/JSONModelTransformations/JSONKeyMapper.m; sourceTree = "<group>"; };
+		FD4AE9388D74F06A0B4CDB0A79F15F6D /* KVOController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVOController-prefix.pch"; sourceTree = "<group>"; };
+		FDA1BA51E1F7A11C9D6367DB3813EB4A /* KVOController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVOController-dummy.m"; sourceTree = "<group>"; };
+		FF3D6548988B7F18934AD7D3FFEBC756 /* JSONHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JSONHTTPClient.h; path = JSONModel/JSONModelNetworking/JSONHTTPClient.h; sourceTree = "<group>"; };
+		FFB60E2A2C4DAC100BA3F9E47970B1EC /* JSONValueTransformer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JSONValueTransformer.m; path = JSONModel/JSONModelTransformations/JSONValueTransformer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1187AC59FF4A37B9334B5D2A4C96BAEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C988F6B2CA8D85617BB2C79CDA9B7280 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C49F22667C2C7B133100925E0E13917 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A887BB49378F069A04577F433309C515 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB995042175B6C903D6FF6764D7F65D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AB032EFC6FE67994EDFFBD9365EB24 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0176B2E164DB84E018572E201EE2CD41 /* KVOController */ = {
+			isa = PBXGroup;
+			children = (
+				E8E27652C53B142D99EC4888B04BF0F5 /* FBKVOController.h */,
+				E3836482BA807410A4070ABB3016BE3C /* FBKVOController.m */,
+				6EA8BFDD656162294F35E4320264B649 /* KVOController.h */,
+				0DCDA910FADAB095C70B6C079D41EC7E /* NSObject+FBKVOController.h */,
+				74F2E75B5903626EECD3108006D41EF9 /* NSObject+FBKVOController.m */,
+				46EF54BD706F318B749BE426D2A54054 /* Support Files */,
+			);
+			name = KVOController;
+			path = KVOController;
+			sourceTree = "<group>";
+		};
+		10249DED1AAFE0E0EAA6E75948ECE8B6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2EBA70F6449DC2239745896C6BCD05A /* Pods-DinnerPay */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		206689112ED2F8684C015BC735BC9FE1 /* JSONModel */ = {
+			isa = PBXGroup;
+			children = (
+				43862CBBECB64BDDD415247EF6C36257 /* JSONAPI.h */,
+				9777B4F91ED55DEDFF8A73D9705CD1B0 /* JSONAPI.m */,
+				FF3D6548988B7F18934AD7D3FFEBC756 /* JSONHTTPClient.h */,
+				4229AEBB41174B5CC025407D0F837072 /* JSONHTTPClient.m */,
+				19D8DD78BF36C2FBEEA26615B2D257A1 /* JSONKeyMapper.h */,
+				F438BE3CB9ED509C77C86BFE0EA04F3A /* JSONKeyMapper.m */,
+				943C1E96FB0F7698201D2DA20435F8A0 /* JSONModel.h */,
+				F0AD94E6E2DE782B24741D7A7D860810 /* JSONModel.m */,
+				33DA068598D7C046D9A51D08EC55A5E3 /* JSONModel+networking.h */,
+				818EEA7B9E0B18D7F9951C1447A65326 /* JSONModel+networking.m */,
+				A2B0B5A60F2C9A3E349AE7DE7AD4FA54 /* JSONModelArray.h */,
+				6E0B228EA9DC850DC441EBA5BE84B5E1 /* JSONModelArray.m */,
+				80191235EBD9325DB8F06666F9331A2F /* JSONModelClassProperty.h */,
+				A49078FEE61642F2E43F26C360D54303 /* JSONModelClassProperty.m */,
+				E788D7FD43FF85269B9D4A72D6D83728 /* JSONModelError.h */,
+				6FA17ED354787AD4450DB10D2F1701BD /* JSONModelError.m */,
+				192DFADD5BE6AA2EC8695E0A97878F7E /* JSONModelLib.h */,
+				0E75E1D8238539AC598553EF2C3855E6 /* JSONValueTransformer.h */,
+				FFB60E2A2C4DAC100BA3F9E47970B1EC /* JSONValueTransformer.m */,
+				ED845D8C068BBA0A5399BA3C32CABAD7 /* NSArray+JSONModel.h */,
+				09587ABE74EFB18C575ED1A0DDCA57F7 /* NSArray+JSONModel.m */,
+				2B97395856474CF3349AF0CA920B5CA3 /* Support Files */,
+			);
+			name = JSONModel;
+			path = JSONModel;
+			sourceTree = "<group>";
+		};
+		2B97395856474CF3349AF0CA920B5CA3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9C1367F4AB78A4490BCC4FDF7CB2805 /* JSONModel.xcconfig */,
+				959727FA4F9A3166194A5D2B597430A4 /* JSONModel-dummy.m */,
+				771BA0A5D856AB2DF2BB90AFB6B614EC /* JSONModel-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JSONModel";
+			sourceTree = "<group>";
+		};
+		46EF54BD706F318B749BE426D2A54054 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F49B3E6B694CC47A47D37FDB540AB49 /* KVOController.xcconfig */,
+				FDA1BA51E1F7A11C9D6367DB3813EB4A /* KVOController-dummy.m */,
+				FD4AE9388D74F06A0B4CDB0A79F15F6D /* KVOController-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KVOController";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B51F81E26A117C6B9D71B7E7B882ED88 /* Pods */,
+				8469B5296CD51F84B4356A0C59171D37 /* Products */,
+				10249DED1AAFE0E0EAA6E75948ECE8B6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8469B5296CD51F84B4356A0C59171D37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85992005557F7AE383F8DB6D5456C308 /* libJSONModel.a */,
+				149635A37A206F8D6F37C8BAEDB3C0BB /* libKVOController.a */,
+				19EA430D757C90A3DBDD3D30AC39C1EB /* libPods-DinnerPay.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B51F81E26A117C6B9D71B7E7B882ED88 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				206689112ED2F8684C015BC735BC9FE1 /* JSONModel */,
+				0176B2E164DB84E018572E201EE2CD41 /* KVOController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2EBA70F6449DC2239745896C6BCD05A /* Pods-DinnerPay */ = {
+			isa = PBXGroup;
+			children = (
+				44C122F66DEBDC19A00F467C1B95BB8A /* Pods-DinnerPay-acknowledgements.markdown */,
+				571204C239803F7CF736323299421233 /* Pods-DinnerPay-acknowledgements.plist */,
+				35D701141B439AE90A21A3736BB6B869 /* Pods-DinnerPay-dummy.m */,
+				C3F48E9D5020F2A4CD6614597E232EC3 /* Pods-DinnerPay-frameworks.sh */,
+				82D8D090500CCFBDAC4D8795DD0F0B77 /* Pods-DinnerPay-resources.sh */,
+				39087CA82F0BDF53B09D0AEDC5687D37 /* Pods-DinnerPay.debug.xcconfig */,
+				43B54156DB9BA6D63A268651BEF3D2DB /* Pods-DinnerPay.release.xcconfig */,
+			);
+			name = "Pods-DinnerPay";
+			path = "Target Support Files/Pods-DinnerPay";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		90FC50786E5E6B2C7E494115B237C296 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53707C8E9063630510F1E6A36275BC33 /* JSONAPI.h in Headers */,
+				C5B804D74B774F7313ACDDAD3471D546 /* JSONHTTPClient.h in Headers */,
+				C1652FEE07EE48DC7277B180CACFABC8 /* JSONKeyMapper.h in Headers */,
+				1AAA70E698A9A1104C1A9F8727B82DDA /* JSONModel+networking.h in Headers */,
+				F471FDA23F7A8F3E0DF4B681CA898FA5 /* JSONModel.h in Headers */,
+				988C84FC5CDFF45926D238C0ADF0E470 /* JSONModelArray.h in Headers */,
+				387C47199D0E566DCD7DA228B20297C5 /* JSONModelClassProperty.h in Headers */,
+				EAC8D21ABBCC7BEDBE2DEE1B4BDF19BE /* JSONModelError.h in Headers */,
+				08CD7C0F3287AE71FCC88C262E5B5BA5 /* JSONModelLib.h in Headers */,
+				36AF5FD414EE93F0C9250394B9B920BC /* JSONValueTransformer.h in Headers */,
+				BCF6F1CD270BA9BC5BDC63815D818097 /* NSArray+JSONModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADE7E2AC0F52AC82516B4935568D540E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBD8BD6A4FFC9E7A30E85603FF0118D6 /* FBKVOController.h in Headers */,
+				8A2C5CF2D28776EBB3B9EFF562CCCFC2 /* KVOController.h in Headers */,
+				541A1FF2BE6FDED04FC8174BDA96F005 /* NSObject+FBKVOController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		53E7E9D15B3EFBCB998E237DE5EA8695 /* JSONModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4690814312D2F7011992A0230B377B60 /* Build configuration list for PBXNativeTarget "JSONModel" */;
+			buildPhases = (
+				D34D404B10D4253354A72A756FCB2FC5 /* Sources */,
+				3C49F22667C2C7B133100925E0E13917 /* Frameworks */,
+				90FC50786E5E6B2C7E494115B237C296 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JSONModel;
+			productName = JSONModel;
+			productReference = 85992005557F7AE383F8DB6D5456C308 /* libJSONModel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9C2D3327264C1DB785EADD89D3242323 /* KVOController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A5D756C612B03EA5ACB76CF9507AAA /* Build configuration list for PBXNativeTarget "KVOController" */;
+			buildPhases = (
+				A0D4BF94518C553D65D3E3E540F4BAF1 /* Sources */,
+				1187AC59FF4A37B9334B5D2A4C96BAEB /* Frameworks */,
+				ADE7E2AC0F52AC82516B4935568D540E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVOController;
+			productName = KVOController;
+			productReference = 149635A37A206F8D6F37C8BAEDB3C0BB /* libKVOController.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E60D28E0095A10D8C61AFFBE8093796C /* Pods-DinnerPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 870D8CC99B65FA6F22D6BC10F8145381 /* Build configuration list for PBXNativeTarget "Pods-DinnerPay" */;
+			buildPhases = (
+				999F5BFB46728B4463C4E04C4650D2C5 /* Sources */,
+				EB995042175B6C903D6FF6764D7F65D7 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CBA5D4D2BC0E0B87586277548BDDA68 /* PBXTargetDependency */,
+				3CE7D067E1B6A7391C3B1FCDD9232A0C /* PBXTargetDependency */,
+			);
+			name = "Pods-DinnerPay";
+			productName = "Pods-DinnerPay";
+			productReference = 19EA430D757C90A3DBDD3D30AC39C1EB /* libPods-DinnerPay.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8469B5296CD51F84B4356A0C59171D37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53E7E9D15B3EFBCB998E237DE5EA8695 /* JSONModel */,
+				9C2D3327264C1DB785EADD89D3242323 /* KVOController */,
+				E60D28E0095A10D8C61AFFBE8093796C /* Pods-DinnerPay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		999F5BFB46728B4463C4E04C4650D2C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				477C6F5170C5055549D3E7EE1381CC55 /* Pods-DinnerPay-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0D4BF94518C553D65D3E3E540F4BAF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411AFC327DF36F151B03A9850B2D1883 /* FBKVOController.m in Sources */,
+				B96F28F4542BEA6BECFC603581AE0903 /* KVOController-dummy.m in Sources */,
+				AC1EBB97EFD5398194CA26C31926E0BC /* NSObject+FBKVOController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34D404B10D4253354A72A756FCB2FC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B724C28AFED42E3E94204D02DA2733 /* JSONAPI.m in Sources */,
+				97B3AFE1C36E97573ECF2C00C2B98010 /* JSONHTTPClient.m in Sources */,
+				1736502EE59EF61EEF41E54870FA7D97 /* JSONKeyMapper.m in Sources */,
+				826771FBBD10E29C6AE46BC4F47A6E4C /* JSONModel+networking.m in Sources */,
+				5F3E45D44392E55DC395DEE05B7B7570 /* JSONModel-dummy.m in Sources */,
+				1EB671ACACCEAC99FA5C4096DA116FE9 /* JSONModel.m in Sources */,
+				72C6E7510CE85772FDE774E854F2165F /* JSONModelArray.m in Sources */,
+				A95BDE2319138A42CF4BCDEB2A9C5213 /* JSONModelClassProperty.m in Sources */,
+				A4DD2AA624AB5D39B89C1621ECCE52F5 /* JSONModelError.m in Sources */,
+				BD6989C6888F0C3A26540B2A59ABDBF9 /* JSONValueTransformer.m in Sources */,
+				904EE99702A011FFD4BB1B5F8B579EDC /* NSArray+JSONModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CBA5D4D2BC0E0B87586277548BDDA68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONModel;
+			target = 53E7E9D15B3EFBCB998E237DE5EA8695 /* JSONModel */;
+			targetProxy = 9F54F3A8FA7B818810E713CA8F06A46F /* PBXContainerItemProxy */;
+		};
+		3CE7D067E1B6A7391C3B1FCDD9232A0C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KVOController;
+			target = 9C2D3327264C1DB785EADD89D3242323 /* KVOController */;
+			targetProxy = A99FD4AC0FE86DD19A232C8AE700F54E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		19A0CFF65303BC6A1168266417F6C3A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9C1367F4AB78A4490BCC4FDF7CB2805 /* JSONModel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3EB113C45990ECB12FAE03C0A11B3BF1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F49B3E6B694CC47A47D37FDB540AB49 /* KVOController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KVOController/KVOController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		505CAF86BAB0EE94AF5B0A725D0C2FF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F49B3E6B694CC47A47D37FDB540AB49 /* KVOController.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/KVOController/KVOController-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		76951A53AA9343DCF0E20D2C3AC8A4D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43B54156DB9BA6D63A268651BEF3D2DB /* Pods-DinnerPay.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		87669B03FE9EB7E7AE5116AD7FE33BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9C1367F4AB78A4490BCC4FDF7CB2805 /* JSONModel.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JSONModel/JSONModel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE529CAB613A1C755E4375810386F461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39087CA82F0BDF53B09D0AEDC5687D37 /* Pods-DinnerPay.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4690814312D2F7011992A0230B377B60 /* Build configuration list for PBXNativeTarget "JSONModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19A0CFF65303BC6A1168266417F6C3A0 /* Debug */,
+				87669B03FE9EB7E7AE5116AD7FE33BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63A5D756C612B03EA5ACB76CF9507AAA /* Build configuration list for PBXNativeTarget "KVOController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				505CAF86BAB0EE94AF5B0A725D0C2FF9 /* Debug */,
+				3EB113C45990ECB12FAE03C0A11B3BF1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		870D8CC99B65FA6F22D6BC10F8145381 /* Build configuration list for PBXNativeTarget "Pods-DinnerPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE529CAB613A1C755E4375810386F461 /* Debug */,
+				76951A53AA9343DCF0E20D2C3AC8A4D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
